@@ -1,6 +1,6 @@
 import { View, Text, Platform } from 'react-native';
 
-export default function MapaMobile({styles, navigation, restaurantes}){
+export default function Mapa({styles, navigation, restaurantes}){
   const isWeb = Platform.OS === 'web';
   const centroRJ = {
     latitude: -22.9068,

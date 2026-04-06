@@ -2,8 +2,8 @@ import React from 'react';
 import { View, Platform} from 'react-native';
 import { restaurantes } from '../../mock/restaurantes';
 import styles from './_mapaRestaurantes';
-import MapaMobile from '../../components/MapaMobile';
-import MapaWeb from '../../components/MapaWeb';
+import MapaMobile from '../../components/Mapa/Mapa';
+import MapaWeb from '../../components/Mapa/Mapa.web';
 
 export default function MapaRestaurantes({ navigation }) {
   const isWeb = Platform.OS === 'web';
