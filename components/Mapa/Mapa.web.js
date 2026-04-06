@@ -1,7 +1,7 @@
 import { View, Text, TouchableOpacity, FlatList } from 'react-native';
 
 
-export default function MapaWeb({styles, navigation, restaurantes}){
+export default function Mapa({styles, navigation, restaurantes}){
     const renderHeader = () => (
     <View style={styles.headerContainer}>
       <View style={styles.webHeader}>

@@ -1,21 +1,13 @@
-import { View, Text, Platform } from 'react-native';
+import { View, Text } from 'react-native';
+import {MapView, Marker, Callout} from 'react-native-maps';
 
 export default function Mapa({styles, navigation, restaurantes}){
-  const isWeb = Platform.OS === 'web';
   const centroRJ = {
     latitude: -22.9068,
     longitude: -43.1729,
     latitudeDelta: 0.05,
     longitudeDelta: 0.05,
   };
-
-  let MapView, Marker, Callout;
-  if (!isWeb) {
-    const Maps = require('react-native-maps');
-    MapView = Maps.default;
-    Marker = Maps.Marker;
-    Callout = Maps.Callout;
-  }
   
     const renderCallout = (restaurante) => (
     <Callout onPress={() => navigation.navigate('DetalhesRestaurante', { restaurante })}>
