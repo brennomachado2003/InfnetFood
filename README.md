@@ -36,7 +36,7 @@ Projeto de delivery desenvolvido em **React Native** para a disciplina de Desenv
 
 08/09-
 <br>
-<img width="431" height="321" alt="image" src="https://github.com/user-attachments/assets/b9dc1b8a-8df1-4489-bf49-472827d352dc" />
+![alt text](image-1.png)
 
 10-
 <br>
@@ -48,7 +48,7 @@ Projeto de delivery desenvolvido em **React Native** para a disciplina de Desenv
 
 12-
 <br>
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/82732250-f351-4bfa-90c4-e91d1dfb4a75" />
+![alt text](image-2.png)
 
 
 13-
