@@ -44,7 +44,7 @@ export default function Checkout({ navigation }) {
         alert("Pedido Confirmado! Seu lanche já está sendo preparado.");
       }
 
-      navigation.navigate('home');
+      navigation.navigate('Main');
     }, 1500);
   };
 
